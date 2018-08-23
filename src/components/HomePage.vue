@@ -96,7 +96,7 @@ export default {
           cloud_name: "CLOUD_NAME",
           upload_preset: "PRESET",
           tags: ["image"],
-          sources: ["local", "url"]
+          sources: ["local", "url", "camera"]
         },
         (error, result) => {
           this.file = result[0];
